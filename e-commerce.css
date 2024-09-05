@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+.all-content{
+    background: rgb(174, 190, 197);
+}
+.navbar{
+    background: rgb(0 123 167);
+    padding-left: 50px;
+    font-weight: bold;   
+}
+#logo{
+    font-size: 23pxpx;
+    color: white;
+}
+#logo img{
+    margin-bottom: 15px;
+}
+.navbar-nav{
+    margin-left: 10px;
+}
+.nav-link{
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+    margin-left: 15px;
+    transition: 0.5s ease;
+}
+.nav-link:hover{
+    background-color:black;
+    color: white;
+    border-radius: 5px;
+}
+.icons{
+    margin-left: 30px;
+}
+.icons img{
+      margin-left: 10px;
+      transform: 0.5s ease;
+      cursor: pointer;
+}
+.icons img:hover{
+    transform: translateY(-5px);
+}
+@media screen and (max-width:330px){
+    #logo{
+        font-size: 15px;
+    }
+}
+.home{
+    background-image: url('Dominos_pizza_bg.jpg');
+    height: 500px;
+    background-size: cover;
+    z-index: 0;
+
+}
+.home h3{
+    padding-left: 700px;
+    padding-top: 200px;
+    color: white;
+    font-size: 40px;
+}
+.home p{
+    padding-left: 700px;
+    padding-top: 10px;
+    color: white;
+    font-size: 20px;
+}
+.btn{
+    padding-left: 700px;
+    padding-top: 10px;
+    color: white;
+    font-size: 15px;
+}

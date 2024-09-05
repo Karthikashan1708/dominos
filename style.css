@@ -1,0 +1,45 @@
+#header{
+    height: 300px;
+    width: 1000px;
+    background-color: blue;
+    margin-left: auto;
+    margin-right: auto;
+    border: rgb(15, 21, 12) double;
+    }
+.head{
+    height: 250px;
+    width: 1000px;
+    }
+.logo{
+    float: left;
+}
+.name{
+        height: 250px;
+        width: 700px;
+        text-align: center;
+}
+.n{
+        font-size: 70px;
+        color: #0e1111;
+        font-style: italic;
+        text-transform: uppercase;
+}
+.menu{ 
+        height: 50px;
+        width: 1000px;
+        background-color: #99FF33;
+        float:left;
+}
+.menu ul li{
+    display: inline;
+    padding: 40px;
+}
+menu ul li a{
+    color: rgb(12, 9, 10);
+    font-size: 26px;
+    text-transform: lowercase;
+}
+#footer{
+  height: 100px;
+  width:  1000px;
+}
